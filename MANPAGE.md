@@ -66,7 +66,7 @@ App CLI options:
   --Server-Log-sqlLevel                                  (default: 'error')
   --Server-Jobs-maxSavedProgress                        Job history size (default: 10)
   --Server-Jobs-scheduled                                (default: [{"name":"Indexing","jobName":"Indexing","config":{},"allowParallelRun":false,"trigger":{"type":1}},{"name":"Thumbnail Generation","jobName":"Thumbnail Generation","config":{"sizes":[240]},"allowParallelRun":false,"trigger":{"type":4,"afterScheduleName":"Indexing"}},{"name":"Photo Converting","jobName":"Photo Converting","config":{},"allowParallelRun":false,"trigger":{"type":4,"afterScheduleName":"Thumbnail Generation"}},{"name":"Video Converting","jobName":"Video Converting","config":{},"allowParallelRun":false,"trigger":{"type":4,"afterScheduleName":"Photo Converting"}},{"name":"Temp Folder Cleaning","jobName":"Temp Folder Cleaning","config":{},"allowParallelRun":false,"trigger":{"type":4,"afterScheduleName":"Video Converting"}}])
-  --Client-applicationTitle                              (default: 'PiGallery 2')
+  --Client-applicationTitle                              (default: 'AOS Directory')
   --Client-publicUrl                                     (default: '')
   --Client-urlBase                                       (default: '')
   --Client-Search-enabled                                (default: true)
@@ -150,7 +150,7 @@ Environmental variables:
   Server-Log-sqlLevel                                (default: 'error')
   Server-Jobs-maxSavedProgress                      Job history size (default: 10)
   Server-Jobs-scheduled                              (default: [{"name":"Indexing","jobName":"Indexing","config":{},"allowParallelRun":false,"trigger":{"type":1}},{"name":"Thumbnail Generation","jobName":"Thumbnail Generation","config":{"sizes":[240]},"allowParallelRun":false,"trigger":{"type":4,"afterScheduleName":"Indexing"}},{"name":"Photo Converting","jobName":"Photo Converting","config":{},"allowParallelRun":false,"trigger":{"type":4,"afterScheduleName":"Thumbnail Generation"}},{"name":"Video Converting","jobName":"Video Converting","config":{},"allowParallelRun":false,"trigger":{"type":4,"afterScheduleName":"Photo Converting"}},{"name":"Temp Folder Cleaning","jobName":"Temp Folder Cleaning","config":{},"allowParallelRun":false,"trigger":{"type":4,"afterScheduleName":"Video Converting"}}])
-  Client-applicationTitle                            (default: 'PiGallery 2')
+  Client-applicationTitle                            (default: 'AOS Directory')
   Client-publicUrl                                   (default: '')
   Client-urlBase                                     (default: '')
   Client-Search-enabled                              (default: true)
@@ -330,7 +330,7 @@ Environmental variables:
         }
     },
     "Client": {
-        "applicationTitle": "PiGallery 2",
+        "applicationTitle": "AOS Directory",
         "publicUrl": "",
         "urlBase": "",
         "Search": {

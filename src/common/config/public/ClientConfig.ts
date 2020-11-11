@@ -160,7 +160,7 @@ export module ClientConfig {
   @SubConfigClass()
   export class Config {
     @ConfigProperty()
-    applicationTitle: string = 'PiGallery 2';
+    applicationTitle: string = 'AOS Directory';
     @ConfigProperty()
     publicUrl: string = '';
     @ConfigProperty()
